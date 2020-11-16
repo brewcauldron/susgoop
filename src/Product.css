@@ -1,14 +1,24 @@
+:root {
+  --accent-yellow: #DFBD46;
+  --accent-green: #a7e8d8;
+  --accent-pink: #dba989;
+  --neutral-dark: #162c3b;
+  --neutral-mid: #5c6c76;
+  --neutral-light: #e8eaec;
+}
+
 .Product {
   display: flex;
+  font-family: 'Quicksand', sans-serif;
   align-items: center;
-  padding: 8px;
+  padding: 20px;
 }
 
 .Goodness {
-  margin: 8px 24px;
+  margin: 20px;
 }
 
-.IngredientTitle {
+.ProductName {
   margin-right: 16px;
 }
 

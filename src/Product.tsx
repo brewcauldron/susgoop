@@ -14,8 +14,8 @@ export function Product({onChangeGoodness, onChangeTitle, onChangeIngredients, g
   return (
     <div key="Product" className="Product">
       <input key="Good" className="Goodness" type={"checkbox"} checked={good} onChange={e => onChangeGoodness(!good)} />
-      <input key="Title" className="IngredientTitle" value={title} onChange={e => onChangeTitle(e.target.value)} autoFocus={false} placeholder={"Title"} />
-      <input key="Ingredients" className="Ingredients" value={ingredients} onChange={e => onChangeIngredients(e.target.value)} autoFocus={false} placeholder={"Ingredients separated by comma"} />
+      <input key="Name" className="ProductName TypogSubtitle" value={title} onChange={e => onChangeTitle(e.target.value)} autoFocus={false} placeholder={"Product name"} />
+      <input key="Ingredients" className="Ingredients TypogBody" value={ingredients} onChange={e => onChangeIngredients(e.target.value)} autoFocus={false} placeholder={"Enter the ingredients separated by commas"} />
     </div>
   )
 }

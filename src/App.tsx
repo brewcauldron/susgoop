@@ -47,9 +47,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="Title">SusGoop</div>
+        <div className="AppName TypogHero">Which skincare ingredients may I be sensitive to?</div>
         <span className="ColumnHeader">
-          <span className="ColumnHeaderTitle">Good?</span>
+          <span className="ColumnHeaderTitle TypogSubtitle">Products I’ve had issues with</span>
         </span>
         <div className="Products">
           {products.map((p, i) => (
