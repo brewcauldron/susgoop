@@ -14,13 +14,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #282c34;
+  min-height: 100vh;
   color: white;
 }
 
@@ -35,4 +32,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Title {
+  font-size: 48px;
+  font-weight: 800;
+  flex: 0;
+  align-self: flex-start;
+  padding-left: 24px;
+  padding-top: 16px;
+}
+
+.ColumnHeader {
+  font-size: 14px;
+  flex: 0;
+  align-self: flex-start;
+  padding-top: 24px;
+}
+
+.ColumnHeaderTitle {
+  padding-left: 18px;
+}
+
+.Products {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding: 16px;
 }

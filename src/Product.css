@@ -1,0 +1,17 @@
+.Product {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.Goodness {
+  margin: 8px 24px;
+}
+
+.IngredientTitle {
+  margin-right: 16px;
+}
+
+.Ingredients {
+  flex-grow: 1;
+}
