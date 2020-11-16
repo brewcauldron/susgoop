@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/susgoop/static/css/main.823923d6.chunk.css",
+    "main.js": "/susgoop/static/js/main.74a7ef81.chunk.js",
+    "main.js.map": "/susgoop/static/js/main.74a7ef81.chunk.js.map",
+    "runtime-main.js": "/susgoop/static/js/runtime-main.7c83788b.js",
+    "runtime-main.js.map": "/susgoop/static/js/runtime-main.7c83788b.js.map",
+    "static/js/2.31065524.chunk.js": "/susgoop/static/js/2.31065524.chunk.js",
+    "static/js/2.31065524.chunk.js.map": "/susgoop/static/js/2.31065524.chunk.js.map",
+    "static/js/3.dd25a9b1.chunk.js": "/susgoop/static/js/3.dd25a9b1.chunk.js",
+    "static/js/3.dd25a9b1.chunk.js.map": "/susgoop/static/js/3.dd25a9b1.chunk.js.map",
+    "index.html": "/susgoop/index.html",
+    "static/css/main.823923d6.chunk.css.map": "/susgoop/static/css/main.823923d6.chunk.css.map",
+    "static/js/2.31065524.chunk.js.LICENSE.txt": "/susgoop/static/js/2.31065524.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c83788b.js",
+    "static/js/2.31065524.chunk.js",
+    "static/css/main.823923d6.chunk.css",
+    "static/js/main.74a7ef81.chunk.js"
+  ]
+}
