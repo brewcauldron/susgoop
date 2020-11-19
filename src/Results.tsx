@@ -12,7 +12,7 @@ export function Results({products}: Props) {
   for (const product of products) {
     const ingredients = product.ingredients.split(',')
     for (const ingredientUnsanitized of ingredients) {
-      const ingredient = ingredientUnsanitized.toLowerCase()
+      const ingredient = ingredientUnsanitized.toLowerCase().trim()
       if (product.good) {
         const prev = goods[ingredient]
         if (prev) {
