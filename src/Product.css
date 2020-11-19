@@ -7,21 +7,14 @@
   --neutral-light: #e8eaec;
 }
 
-.Product {
-  display: flex;
-  font-family: 'Quicksand', sans-serif;
-  align-items: center;
-  padding: 20px;
+.margin {
+  margin: 16px;
 }
 
-.Goodness {
-  margin: 20px;
-}
-
-.ProductName {
+.right-margin {
   margin-right: 16px;
 }
 
-.Ingredients {
+.grow {
   flex-grow: 1;
 }

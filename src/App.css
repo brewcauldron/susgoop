@@ -7,9 +7,13 @@
   --neutral-light: #e8eaec;
 }
 
+* {
+  font-family: 'Quicksand', sans-serif;
+  color: var(--neutral-dark);
+}
+
 .App {
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -21,11 +25,10 @@
   pointer-events: none;
 }
 
-.App-header {
+.app-header {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  color: var(--neutral-dark);
   max-width: 1440px;
 }
 
@@ -33,61 +36,69 @@
   color: #61dafb;
 }
 
-.AppName {
+.left {
+  padding-left: 48px;
+}
+
+.top {
+  padding-top: 16px;
+}
+
+.app-name {
   flex: 0;
   align-self: flex-start;
-  padding-left: 48px;
   padding-top: 100px;
   text-align: left;
   max-width: 80%;
 }
 
-.TypogHero {
+.hero {
   font-weight: bold;
   font-size: 72px;
   line-height: 72px;
 }
 
-.TypogTitle {
+.title {
   font-weight: bold;
   font-size: 36px;
   line-height: 45px;
 }
 
-.TypogSubtitle {
+.subtitle {
   font-weight: bold;
   font-size: 20px;
   line-height: 25px;
 }
 
-.TypogBody {
+.body {
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
 }
 
-.TypogCaption {
+.caption {
   font-weight: bold;
   font-size: 10px;
   line-height: 12px;
 }
 
-.ColumnHeader {
-  font-size: 14px;
-  flex: 0;
+.align-start {
   align-self: flex-start;
-  padding-top: 24px;
 }
 
-.ColumnHeaderTitle {
-  padding-left: 18px;
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.Products {
+.column {
   display: flex;
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  padding: 16px;
 }
 
+.padding {
+  padding: 16px;
+}

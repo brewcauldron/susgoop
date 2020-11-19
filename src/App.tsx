@@ -46,12 +46,10 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <div className="AppName TypogHero">Which skincare ingredients may I be sensitive to?</div>
-        <span className="ColumnHeader">
-          <span className="ColumnHeaderTitle TypogSubtitle">Products I’ve had issues with</span>
-        </span>
-        <div className="Products">
+      <header className="app-header">
+        <div className="app-name hero left">Which skincare ingredients may I be sensitive to?</div>
+        <span className="left top subtitle align-start">Products I’ve had issues with:</span>
+        <div className="padding column">
           {products.map((p, i) => (
             <Product
               key={i}

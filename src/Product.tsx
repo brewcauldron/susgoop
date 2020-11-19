@@ -12,10 +12,10 @@ export type Props = Product & {
 // eslint-disable-next-line
 export function Product({onChangeGoodness, onChangeTitle, onChangeIngredients, good, title, ingredients}: Props) {
   return (
-    <div key="Product" className="Product">
-      <input key="Good" className="Goodness" type={"checkbox"} checked={good} onChange={e => onChangeGoodness(!good)} />
-      <input key="Name" className="ProductName TypogSubtitle" value={title} onChange={e => onChangeTitle(e.target.value)} autoFocus={false} placeholder={"Product name"} />
-      <input key="Ingredients" className="Ingredients TypogBody" value={ingredients} onChange={e => onChangeIngredients(e.target.value)} autoFocus={false} placeholder={"Enter the ingredients separated by commas"} />
+    <div key="Product" className="row padding">
+      <input key="Good" className="margin" type={"checkbox"} checked={good} onChange={e => onChangeGoodness(!good)} />
+      <input key="Name" className="right-margin subtitle" value={title} onChange={e => onChangeTitle(e.target.value)} autoFocus={false} placeholder={"Product name"} />
+      <input key="Ingredients" className="grow body" value={ingredients} onChange={e => onChangeIngredients(e.target.value)} autoFocus={false} placeholder={"Enter the ingredients separated by commas"} />
     </div>
   )
 }
